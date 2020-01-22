@@ -13,7 +13,7 @@
   "dependencies": {
     "@actions/core": "^1.2.0",
     "@types/node": "^13.1.2",
-    "@zeit/ncc": "^0.20.5"
+    "@zeit/ncc": "^0.21.0"
   },
   "scripts": {
     "build": "ncc build src/index.ts --minify --v8-cache",
